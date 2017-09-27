@@ -19,7 +19,7 @@ namespace api.Controllers
         public async Task<WeatherResponse> GetAsync(string location)
         {
             //Open Weather API Key
-            var apiKey = "YOUR OPEN WEATHER API KEY HERE";
+            var apiKey = "fa1ff94d2fce15f02add1b8876ba33bf";
 
             //Call Open Weather API and return results
             var httpClient = new HttpClient();
